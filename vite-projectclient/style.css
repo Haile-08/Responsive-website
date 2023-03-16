@@ -1,3 +1,11 @@
+:root {
+  --clr-primary-400: ;
+  --clr-primary-300: ;
+
+  --clr-neutral-100: ;
+  --clr-neutral-900: ;
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -6,17 +14,9 @@
 }
 
 /* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
+* {
   margin: 0;
+  padding: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -72,3 +72,4 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
